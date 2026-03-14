@@ -15,3 +15,5 @@ provider "helm" {
 #     }
 #   }
 # }
+
+# eksctl create cluster --name test-cluster --version 1.35 --region  us-east-1 --nodegroup-name linux-nodes --node-type  t2.micro --nodes 2
